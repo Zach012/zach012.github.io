@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document Title</title>
+
+  <link rel="stylesheet" type="text/css" href="./portfolio.css">
+</head>
+<body>
+
+  <header>
+    <h1>Zach Dillon</h1>
+  </header>
+
+  <main>
+
+    <section id="aboutMe">
+        <h2>About Me</h2>
+        <div id="about">
+            <p>
+                Lorem ipsum dolor sit amet, <span id="modal-trigger" class="live">more ...</span>
+            </p>
+
+        <img src="images/ZachDillon.jpg">
+
+        <div id="contactInfo">
+
+            <h2>Contact Information</h2>
+            <ul>
+                <li>Email: zachdillon012@gmail.com</li>
+                <li>Phone: (614) 582-4757</li>
+                <li><a href="https://www.linkedin.com/in/zach-dillon-08a435aa/">Linkedin</a></li>
+                <li><a href="https://github.com/Zach012">Github</a></li>
+            </ul>
+        </div>
+        <div id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML/CSS</li>
+                <li>Javascript</li>
+                <li>Java</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+      <section id="MyProjects">
+        <h2>My projects</h2>
+        <div id="projects"></div>
+          <article>
+            <h3>Review Website</h3>
+            <img src="./images/cover-art.jpg">
+                    <button>Show Details</button>
+                    <h4>Skills/technologies Used</h4>
+                    <ul>
+                        <li>HTML/CSS</li>
+                        <li>Spring boot/Thymleaf</li>
+                        <li>Java/Eclipse</li>
+                    </ul>
+          </article>
+
+      </section>
+      <section>
+
+        <div id="slider">
+          <div id="slider-frame">
+
+            <div id="slider-prev">PREV</div>
+            <div id="slider-next">NEXT</div>
+
+            <div id="slider-images">
+              <div data-src="./images/review.png">
+                A website of reviews
+              </div>
+              <div data-src="./images/cookies.jpg">
+                placeholder
+              </div>
+            </div>
+
+          </div>
+          <div id="slider-caption">
+            The caption.
+          </div>
+        </div>
+
+      </section>
+
+  </main>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#aboutMe">About Us</a>
+    <a href="#myProjects">Our projects</a>
+
+  </nav>
+
+  <footer>
+    <div>
+      &copy; Zach Dillon
+    </div>
+  </footer>
+
+  <div id="backdrop">
+    <div id="modal">
+      <button class="text-button">Close</button>
+      <h4>More about me.</h4>
+
+      <div id="modal-content">
+          <p>Code Business exists to make money. Also software.</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="./portfolio.js"></script>
+
+</body>
+</html>
