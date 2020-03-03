@@ -100,18 +100,18 @@
     }
   }
 
-  section {
+  .section {
     margin: 1em 0;
 
     padding-top: 3em;
     min-height: 20em;
   }
 
-  section > p {
+  .section > p {
     margin: 1em 0;
   }
 
-  section ul {
+  .section ul {
     padding-left: 1.5em;
     list-style: none;
   }
@@ -182,12 +182,12 @@
     grid-column-gap: 1em;
   }
 
-  #projects article {
+  #projects .article {
     background: #ccc;
     padding: 1em;
   }
 
-  #projects article img {
+  #projects .article img {
     width: 50%;
     border: 1px solid #333;
   }
@@ -210,11 +210,11 @@
       display: inline-block;
     }
 
-    #projects article p {
+    #projects .article p {
       display: none;
     }
 
-    #projects article.expanded p {
+    #projects .article.expanded p {
       display: block;
     }
   }
