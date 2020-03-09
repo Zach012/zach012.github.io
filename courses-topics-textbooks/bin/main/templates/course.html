@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+	<title th:text="${courseModel.name}">A course</title>
+</head>
+<body>
+5
+	<header>
+		<h1 th:text="${courseModel.name}">A Course</h1>
+	</header>
+
+
+			<div th:each = "course: ${courses">
+			<p th:text="${courseModel.name}"></p>
+			<p th:text="${course.description}"></p>
+
+
+	<form method="POST">
+		<button type="submit" th:value="${course.id}" name="courseId" th:formaction="@{del-course}"> delete </button>
+	</form>
+
+	<footer>
+		<small>Copyright South Harmon Institute of Technology 2018</small>
+	</footer>
+</div>
+</body>
+</html>
