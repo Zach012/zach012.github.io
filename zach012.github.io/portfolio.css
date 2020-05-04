@@ -21,7 +21,7 @@
 
   header,
   main,
-  footer {
+  #footer {
     margin: 0 auto;
     max-width: 800px;
   }
@@ -298,7 +298,7 @@
     background: #ccc;
   }
 
-  footer {
+  #footer {
     margin-top: 2em;
     margin-bottom: 1em;
     background: #666;
